@@ -5,7 +5,7 @@ import re
 # Load CSV file
 @st.cache_data
 def load_data():
-    df = pd.read_csv("/Users/ma14/Documents/2024 WCS/Competencies/Pathogen Genomics Competencies and KSA Database 22Feb25.csv")
+    df = pd.read_csv("Pathogen Genomics Competencies and KSA Database 22Feb25.csv")
     return df
 
 df = load_data()
